@@ -1,0 +1,42 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+/* Form */
+
+.shopForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+.formSection {
+    flex-basis: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    background-color: aqua;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+}
